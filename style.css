@@ -58,6 +58,15 @@ nav div:hover{
 
 #banner #caption .btn-main{
     color: red;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+#banner #caption .btn-main span{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
