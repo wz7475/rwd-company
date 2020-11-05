@@ -39,7 +39,7 @@ nav div:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
 
     display: flex;
     align-items: center;
