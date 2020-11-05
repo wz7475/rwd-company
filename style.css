@@ -6,5 +6,43 @@
 
 html, body {
     font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+/* nav{
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    display: flex;
+}
+
+nav div{
+    flex: 1 1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav div:hover{
+    cursor: pointer;
+    background-color: #000;
+} */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    background-color: #000;
+    display: flex;
+}
+
+nav div{
+    padding: 20px 0;
+    /* min-width: 90px; */
+    flex: 1 1;
+    text-align: center;
+    color: #fff;
 }
