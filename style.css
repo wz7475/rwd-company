@@ -9,7 +9,7 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
-/* nav{
+nav{
     position: fixed;
     top: 0;
     background-color: #333;
@@ -27,22 +27,5 @@ nav div{
 nav div:hover{
     cursor: pointer;
     background-color: #000;
-} */
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
-nav{
-    background-color: #000;
-    display: flex;
-}
-
-nav div{
-    padding: 20px 0;
-    /* min-width: 90px; */
-    flex: 1 1;
-    text-align: center;
-    color: #fff;
-}
