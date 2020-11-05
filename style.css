@@ -29,3 +29,54 @@ nav div:hover{
     background-color: #000;
 }
 
+
+#banner{
+    margin-top:60px;
+
+    background-color: #404040;
+    height: 500px;
+    background: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+#banner #caption{
+   text-align: center;
+}
+
+#banner #caption #header{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#banner #caption .btn-main{
+    color: red;
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+    #contact{
+        display: none;
+    }
+    #banner #caption #header{
+        font-size: 2em;;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #banner{
+        height: 350px;
+    }
+    #banner #caption{
+        width: 70%;
+    }
+}
