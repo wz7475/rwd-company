@@ -96,8 +96,11 @@ main{
 .icon, .header{
     font-size: 1.5em;
     letter-spacing: 0.1em;
-    height: 60px;
-    line-height: 60px;
+
+}
+
+.header{
+    margin-top: 10px
 }
 
 .describ{
@@ -117,6 +120,13 @@ main{
     border-radius: 5px;
     height: 40px;
     line-height: 40px;
+}
+
+.btn-option:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
 }
 
 
@@ -140,5 +150,5 @@ main{
 }
 
 @media only screen and (max-width: 579px){
-    
+
 }
