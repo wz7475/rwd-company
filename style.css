@@ -90,13 +90,12 @@ main{
     width: 250px;
     position: relative;
     height: 350px;
-    margin: 0 20px 40px 20px;
+    margin: 0 20px 80px 20px;
 }
 
 .icon, .header{
     font-size: 1.5em;
     letter-spacing: 0.1em;
-
 }
 
 .header{
@@ -150,5 +149,25 @@ main{
 }
 
 @media only screen and (max-width: 579px){
+    .col, .describ{
+        height: auto;
+    }
+    .btn-option{
+        position: relative;
+    }
+    .describ{
+        margin: 30px 50px;
+    }
+}
 
+@media only screen and (max-width: 869px){
+    .third, .third .describ{
+        height: auto;
+    }
+    .third .btn-option{
+        position: relative;
+    }
+    .third .describ{
+        margin: 30px 50px;
+    }
 }
