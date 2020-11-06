@@ -16,6 +16,7 @@ nav{
     color: #fff;
     width: 100%;
     display: flex;
+    z-index: 10;
 }
 
 nav div{
@@ -87,33 +88,35 @@ main{
 .col{
     text-align: center;
     width: 250px;
-    /* border: 2px solid red; */
     position: relative;
     height: 350px;
-    margin: 20px 20px;
+    margin: 0 20px 40px 20px;
 }
 
 .icon, .header{
     font-size: 1.5em;
     letter-spacing: 0.1em;
-    margin: 10px 0;
+    height: 60px;
+    line-height: 60px;
 }
 
 .describ{
     line-height: 1.5;
-    margin: 30px 50px;
+    margin: 0px 50px;
     display: flex;
     align-items: center;
+    height: 190px;
 }
 
 .btn-option{
     border: #000 1px solid;
     font-weight: 700;
-    padding: 5px;
     position: absolute;
     bottom: 0;
     width: 100%;
     border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
 }
 
 
@@ -134,4 +137,8 @@ main{
     #banner #caption{
         width: 70%;
     }
+}
+
+@media only screen and (max-width: 579px){
+    
 }
